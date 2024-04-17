@@ -16,8 +16,6 @@ services:
     labels:
       project: "Vprofile"
       Author: "imran"
-    depends_on:
-      - mysql
   memcached:
     image: memcached
     container_name: vprocache01
